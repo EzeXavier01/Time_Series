@@ -9,6 +9,9 @@ with a backtest that measures how often those alerts were right.
 Built on real daily traffic for 10 Wikipedia language editions, each treated as an enterprise
 publisher with a monthly traffic commitment.
 
+**Start here:** [`notebooks/walkthrough.ipynb`](notebooks/walkthrough.ipynb) walks through the data,
+the targets, the forecast, the backtest and this month's alerts step by step, with charts.
+
 ## The business problem
 
 Account and growth teams managing large publishers usually find out a publisher missed its
@@ -96,6 +99,7 @@ kpi_forecast/
 sql/
   monthly_kpis.sql   monthly totals, completeness flag, year-on-year change
   targets.sql        trend-adjusted monthly commitments (CTEs, joins, window logic)
+notebooks/           walkthrough.ipynb: the analysis told step by step, with charts
 tests/               pytest suite: SQL targets, alert logic, models, data cleaning
 reports/             outputs from the latest run
 data/raw/            cached daily pageviews

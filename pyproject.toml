@@ -7,3 +7,7 @@ select = ["E", "F", "I", "B", "UP"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
+
+[tool.ruff.lint.per-file-ignores]
+# Notebooks add the repo to sys.path before importing the package, and keep some display lines long.
+"notebooks/*.ipynb" = ["E402", "E501"]
