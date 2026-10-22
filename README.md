@@ -81,7 +81,7 @@ trend going into the month was about 7%.
 
 ![Most at-risk publisher](reports/publisher_most_at_risk.png)
 
-## Project structure
+## Project structure.
 
 ```
 kpi_forecast/
