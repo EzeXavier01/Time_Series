@@ -1,6 +1,6 @@
 # Publisher KPI Forecasting & Target-Miss Alerts
 
-![CI](https://github.com/EzeXavier01/KPI_Forecast_Alerts/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/EzeXavier01/Time_Series/actions/workflows/ci.yml/badge.svg)
 
 Forecast each publisher's KPI for the rest of the month, project where it will finish
 against its monthly commitment, and **flag the publishers likely to miss target early enough to act**,

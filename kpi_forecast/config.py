@@ -25,7 +25,7 @@ PUBLISHERS = {
 HISTORY_START = "2022-01-01"
 
 # Wikimedia asks API clients to identify themselves.
-USER_AGENT = "KPI_Forecast_Alerts/1.0 (https://github.com/EzeXavier01/KPI_Forecast_Alerts)"
+USER_AGENT = "KPI_Forecast_Alerts/1.0 (https://github.com/EzeXavier01/Time_Series)"
 
 # Monthly target = same month last year x (1 + trailing 3-month YoY trend + TARGET_STRETCH).
 # 0.0 means "keep your recent trajectory"; 0.02 would ask for two points better than trend.
